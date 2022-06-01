@@ -3,9 +3,12 @@
 @import 'bottone';
 @import 'variabili';
 
+   
+
 $colore-primario: rgba(255, 162, 0, 0.471);
 body {
     background-color: $colore-primario; 
+    overflow-y: hidden;
 }
 
 header div {
@@ -23,17 +26,20 @@ header div {
         font-size: 1.2rem;
 }
 }
-
+.foresta {
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    margin-top: -1rem;
+}
 .container {
     display: flex;
-    z-index: 20;
+    z-index: 21;
     position: relative;
-    img {
-        height: 430px;
-        width: 590px;
-        border-radius: 10%;
-    }
-    div {
+    top: -127.37rem;
+    left: -14.68rem;
+        div {
         padding: 3rem;
     }
     h2 {
@@ -43,23 +49,51 @@ header div {
         margin-bottom: 2rem;
     }
 }
-footer button {
+button:last-child {
     z-index: 10;
-    font-weight: bold;
-    position: relative;
+    font-weight: bold;;
     font-size: 1.2rem;
     padding: 2rem;
     background-color: aqua;
-    top: 439px;
-    left: 89rem;
+   
     border-radius: 60%;
     :hover {
         cursor: pointer;
     }
 }
-.daifuoco {
-    visibility: visible;
-}
+
 .testo {
-    color: beige;
+    color: aliceblue;
 }
+.fireoff {
+  background-repeat:  no-repeat;
+    visibility: hidden;
+}
+.fireon {
+    visibility: visible;
+    z-index: 20;
+    position: relative;
+    bottom: 162.37rem;
+    width: 100%;
+}
+.forestamorta {
+    visibility: hidden;
+}
+.forestamortaon {
+    visibility: visible;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    top: -109rem;
+    z-index: 10;
+    height: 135rem;
+}
+.container > button:nth-child(2) {
+    width: 18rem;
+    height: 7rem;
+    position: relative;
+    border-radius: 50%;
+    top: 49em;
+    left: 39rem;
+   }
+   
