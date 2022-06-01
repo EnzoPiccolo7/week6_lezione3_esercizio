@@ -5,4 +5,7 @@ div.container div button {
     background: rgb(255,1,1);
     background: linear-gradient(90deg, rgba(255,1,1,1) 0%, rgba(255,124,0,1) 71%);
     font-weight: bold; 
+    :hover {
+        cursor: pointer;
+    }
 }

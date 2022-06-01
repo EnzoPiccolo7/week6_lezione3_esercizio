@@ -8415,6 +8415,8 @@ footer button {
   top: 439px;
   left: 89rem;
   border-radius: 60%; }
+  footer button :hover {
+    cursor: pointer; }
 
 .daifuoco {
   visibility: visible; }

@@ -8,5 +8,5 @@ function daifuoco(){
 function spegni(){
     fuoco.classList.remove('daifuoco');
     testo.classList.remove('testo');
-    alert('bravo sei riuscito a spegnere l"incendio!!')
+    alert('bravo sei riuscito a spegnere l"incendio in tempo in tempo!!')
 }

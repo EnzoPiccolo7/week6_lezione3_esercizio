@@ -12463,6 +12463,10 @@ div.container div button {
   font-weight: bold;
 }
 
+div.container div button :hover {
+  cursor: pointer;
+}
+
 .testo_fuoco {
   color: #FFF;
   letter-spacing: 3px;
@@ -12542,6 +12546,10 @@ footer button {
   top: 439px;
   left: 89rem;
   border-radius: 60%;
+}
+
+footer button :hover {
+  cursor: pointer;
 }
 
 .daifuoco {
