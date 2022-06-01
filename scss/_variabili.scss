@@ -1,0 +1,18 @@
+.testo_fuoco {
+    color:#FFF; letter-spacing:3px; font-size:48px;
+    text-shadow: 0 2px 4px #ee7f00,
+                 0 0 3px #FFF,
+                 0 -3px 4px #ffff22,
+                 0 -7px 10px #ffda22,
+                 0 -12px 12px #ee7f00,
+                 0 -20px 26px #dd1d00;
+    }
+    footer img {
+        width: 110rem;
+        height: 78rem;
+        position: relative;
+        left: -14px;
+        top: -640px;
+        z-index: 1;
+        visibility: hidden;
+    }

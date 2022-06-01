@@ -1,0 +1,25 @@
+{
+  "name": "week6_lezione3_esercizio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass scss/custom.scss css/custom.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnzoPiccolo7/week6_lezione3_esercizio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnzoPiccolo7/week6_lezione3_esercizio/issues"
+  },
+  "homepage": "https://github.com/EnzoPiccolo7/week6_lezione3_esercizio#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
+    "node-sass": "^7.0.1"
+  }
+}
